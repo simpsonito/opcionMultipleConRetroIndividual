@@ -1,4 +1,4 @@
-/*opcMultu4_auto_01.js*/
+/* Adib Abud Jaso 16/01/2017 */
 function Pregunta(objetoConDatos) {
     this.datos = objetoConDatos;
     Pregunta.conjunto.push(this);
