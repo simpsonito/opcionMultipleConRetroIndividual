@@ -3,13 +3,13 @@ function Pregunta(objetoConDatos) {
     this.datos = objetoConDatos;
     Pregunta.conjunto.push(this);
 }
-Pregunta.conjunto = [];//Aquí se almacenan las preguntas
+Pregunta.conjunto = [];//Aquí se almacenan las preguntas, correcta: true o false, retro: se muestra cuando eligen esta opción, puede ser tanto para correcta como incorrecta
 new Pregunta({texto:"Categoría en griego quiere decir",
     opciones:[
         {opcion:"a) Que fundamenta.", correcta:false, retro:"Incorrecto. Categoría quiere decir en griego “que revela o muestra”."},
         {opcion:"b) Que revela.", correcta:true, retro:""},
-    {opcion:"c) Que impera.", correcta:false, retro:"Incorrecto. Categoría quiere decir en griego “que revela o muestra”."},
-    {opcion:"d) Que sugiere.", correcta:false, retro:"Incorrecto. Categoría quiere decir en griego “que revela o muestra”."},
+        {opcion:"c) Que impera.", correcta:false, retro:"Incorrecto. Categoría quiere decir en griego “que revela o muestra”."},
+        {opcion:"d) Que sugiere.", correcta:false, retro:"Incorrecto. Categoría quiere decir en griego “que revela o muestra”."},
     ]
 });
 new Pregunta({texto:"Son categorías según Aristóteles.",
